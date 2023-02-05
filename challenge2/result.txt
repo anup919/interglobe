@@ -1,0 +1,32 @@
+ansible -m setup all     # Provide metadata of all instance of inventory
+
+
+
+## Get metadata output of instance through curl command
+
+
+# curl 169.254.169.254/latest/meta-data
+ami-id
+ami-launch-index
+ami-manifest-path
+block-device-mapping/
+events/
+hostname
+identity-credentials/
+instance-action
+instance-id
+instance-life-cycle
+instance-type
+local-hostname
+local-ipv4
+mac
+metrics/
+network/
+placement/
+profile
+public-hostname
+public-ipv4
+public-keys/
+reservation-id
+security-groups
+services/
